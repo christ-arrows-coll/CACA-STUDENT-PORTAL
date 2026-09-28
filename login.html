@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Portal Login | SAIMS</title><link rel="stylesheet" href="css/style.css"></head>
+<body class="login-page"><div class="login-card"><div class="login-logo">🎓</div><p class="eyebrow">SAIMS PORTAL</p><h1>Welcome Back</h1><p class="muted">Sign in with your school account.</p>
+<form id="loginForm"><label>Account Type</label><select id="role" required><option value="">Select account type</option><option value="admin">Administrator</option><option value="teacher">Teacher</option><option value="student">Student</option></select>
+<label>Email</label><input id="email" type="email" placeholder="school email" required><label>Password</label><input id="password" type="password" placeholder="Password" required>
+<button class="btn full" type="submit">Sign In</button><p id="loginMessage" class="message"></p></form><a class="back-link" href="index.html">← Back to school website</a></div>
+<script type="module" src="js/auth.js"></script></body></html>
